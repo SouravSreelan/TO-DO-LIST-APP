@@ -56,7 +56,7 @@ function App() {
           <div className='inside-div'>
          
           <p>{obj.text}</p></div></>
-        )}
+        )}      
         return null
  })}
  <div className="left"> 
