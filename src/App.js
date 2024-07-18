@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-       
+
 function App() {
   const [toDos, setToDos] = useState([])
   const [toDo, setToDo] = useState('')
@@ -43,7 +43,6 @@ function App() {
           </div>
         </div>
       </div>
-
         )
       })}
       <div className="mt-5 right"> 
