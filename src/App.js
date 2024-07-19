@@ -10,9 +10,9 @@ function App() {
       <div className="mainHeading">   
         <h1>ToDo List</h1>
       </div>
-      <div className="subHeading">  
+      <div className="subHeading">
         <br />
-        <h2>Yeeayyy, it's Sunday 😍✨ </h2>      
+        <h2>Yeeayyy, it's Sunday 😍✨ </h2>
       </div> 
       <div className="input">
         <input value={toDo} onChange={(e)=> {setToDo(e.target.value)}} type="text" placeholder="🖊️ Add item..." />
